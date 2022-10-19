@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--  UTF-8  代表中文代碼，不寫會有亂碼 -->
+        <meta charset="UTF-8"/>
+        <!-- 也可以這樣寫 <meta charset="UTF-8"></meta>    -->
+        <!--  把meta裡的charset屬性等於UTF-8  -->
+
+         <!--  description代表描述，content代表網站說明-->
+        <meta name="description" content="練習用網站">
+        <meta name="author" content="我喔"/>
+
+        <!--  搜尋關鍵字  -->
+        <meta name="keywords" content="html,練習，小黑"/>
+
+        <!-- 視口  -->
+        <meta name="videwport" content="width=device-width,initial-scale=1.0"/>
+        <!--                       到不同裝置時，調整大小     初始縮放比例為100%   -->
+
+        
+        <title>排球喔</title>
+    </head>
+    <body>
+        <!--  <h1>大....小<h6> ex. 1最大，只能有一個  -->
+        <p>哈哈</p>
+
+        <h2>第一篇文章</h2>
+        <p>排球 <i><b>低手</b></i> </p><!--  <i>是斜體字，<b>是粗體字-->
+        
+        <br/><!-- 是換行-->
+        <br/><!-- <br></br>-->
+
+        <hr/><!--水平分隔線-->
+
+        <h2>第二篇文章</h2>
+        <p>排球 <i><b>高手</b></i> </p>
+
+        <!--  連結 & 圖片  -->
+        <a href="https://google.com.tw">google網站</a>
+        <a href="page1.html">第一頁</a>
+        <a href="dir/page2.html">第二頁</a>
+        <a href="volleyball.png">排球</a>
+        <br/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6cnd_B_Gax2mLCr5ofwZ4WvEO269lE6MMA&usqp=CAU"/>
+
+        <br/>
+        <img src="volleyball.png" width="400" />
+        <!--  只寫width會等比例縮小 ex. width=" " height=" "  -->
+        
+        <!--  影片 & 嵌入youtube影片  -->
+        <video src="" controls width="400">瀏覽器無法載入影片</video>
+        <!--  controls屬性是控制影片播放  -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1vvyyhteIv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!--  列表 & 表格  -->
+        
+        <!--  點標  -->
+        <ul>
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ul>
+        
+        <!--  數字標-->
+        <ol>
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ol>
+
+        <!--  羅馬數字標-->
+        <ol type="I">
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ol>
+
+        <!--  大寫英字標-->
+        <ol type="A">
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ol>
+
+        <table width="400">
+            <tr><!--  直列  -->
+                <td>日期</td><!--  橫列  -->
+                <td>數學</td>
+            </tr>
+            <tr>
+                <td>5/1</td>
+                <td>100</td>
+            </tr>
+        </table>
+        <a href="#">首頁</a><!--  不換行 ex."#"是當前網頁的意思  -->
+        <span>span1</span><!--  不換行  -->
+        <span>span2</span>
+        <hr/>
+        <div>div1</div><!--  換行  -->
+        <div>div2</div>
+        
+        <input type="text" placeholder="請輸入帳號"/>
+        <br/>
+        <br/>
+        <input type="password" placeholder="請輸入密碼"/>
+        <br/>
+        <br/>
+        <input type="date"/>
+        <br/>
+        <br/>
+        <input type="range"/>
+        <br/>
+        <br/>
+        <input type="file"/>
+        <br/>
+        <br/>
+        <input type="checkbox">12312</input>
+        <br/>
+        <br/>
+        <textarea>哈哈</textarea>
+        <br/>
+        <br/>
+        <textarea></textarea>
+
+
+        
+    </body>
+</html>
